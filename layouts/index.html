@@ -1,0 +1,15 @@
+{{ define "dynamic_styles" -}}
+
+{{ partial "shared/dynamic_styles.html" . }}
+
+{{- end }}
+
+
+{{ define "main" -}}
+
+{{ partial "shared/navigation.html" . }}
+{{ partial "shared/header.html" . }}
+{{ partial "homepage/main.html" . }}
+{{ partial "shared/footer.html" . }}
+
+{{- end }}
